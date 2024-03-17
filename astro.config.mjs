@@ -9,6 +9,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://solidjs-astro-template.vercel.app',
 	integrations: [solid(), tailwind(), compress(), partytown(), sitemap(), robotsTxt()],
 	output: 'server',
 	adapter: vercel(),
