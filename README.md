@@ -39,5 +39,6 @@ npm run build
 -   https://github.com/alextim/astro-lib/tree/main/packages/astro-robots-txt
 -   https://docs.astro.build/en/guides/integrations-guide/sitemap/
 -   https://github.com/Playform/AstroCompress
+-   https://docs.astro.build/en/guides/integrations-guide/vercel/
 -   https://ark-ui.com/docs/overview/introduction
 -   https://tailwindcss.com/
