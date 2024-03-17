@@ -1,0 +1,13 @@
+---
+import ToastButton from '@components/buttons/ToastButton.tsx';
+import BaseLayout from '@components/layouts/BaseLayout.astro';
+import TestTooltip from '@components/tooltips/TestTooltip.tsx';
+---
+
+<BaseLayout title="Home Page">
+	<div class="flex text-3xl text-center justify-center items-center h-screen">
+		<TestTooltip client:visible>
+			<ToastButton client:only="solid-js" />
+		</TestTooltip>
+	</div>
+</BaseLayout>

@@ -1,0 +1,24 @@
+{
+	"extends": "astro/tsconfigs/strict",
+	"compilerOptions": {
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"plugins": [
+			{
+				"name": "@astrojs/ts-plugin"
+			},
+		],
+		"baseUrl": ".",
+		"paths": {
+			"@styles/*": [
+				"src/styles/*"
+			],
+			"@components/*": [
+				"src/components/*"
+			],
+			"@pages/*": [
+				"src/pages/*"
+			]
+		},
+	}
+}
