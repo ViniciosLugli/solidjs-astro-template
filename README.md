@@ -33,6 +33,7 @@ npm run build
 -   https://github.com/solidjs/solid
 -   https://github.com/solidjs/solid-meta
 -   https://www.solid-toast.com/
+-   https://github.com/solidjs-community/solid-motionone
 -   https://astro.build/
 -   https://github.com/natemoo-re/astro-icon
 -   https://github.com/jonasmerlin/astro-seo
